@@ -9,10 +9,10 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
-  featureImage: '/uploads/home-hero.jpg',
-  logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
+  siteName: 'Amin General Hospital',
+  tagline: '',
+  featureImage: 'https://www.thereporterethiopia.com/sites/default/files/2019-07/Amin-General-Hospital.jpg',
+  logo: 'http://www.amingeneral-hospital.com/img/0152/265.png', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: process.env.GOOGLE_ANALYTICS_ID
@@ -27,18 +27,8 @@ export default {
       link: '/contact'
     },
     {
-      name: 'Categories',
+      name: 'Services',
       link: '/categories'
-    },
-    {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
-    },
-    {
-      name: 'Awake+ Premium',
-      link: 'http://awake-premium-lp.danielkelly.io/',
-      target: '_blank'
     }
   ],
   hero: {
